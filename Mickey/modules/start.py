@@ -10,4 +10,4 @@ import re
 @bot.on_message(filters.command("cstart"))
 async def start(client, message):
         await message.reply_text("📲")
-    bot.run()
+        
