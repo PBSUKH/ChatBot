@@ -7,7 +7,7 @@ import os
 import re
 
 
-@bot.on_message(filters.command("cstart"))
+@bot.on_message(filters.command("start"))
 async def start(client, message):
         await message.reply_text("📲")
         
