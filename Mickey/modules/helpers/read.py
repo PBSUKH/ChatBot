@@ -19,7 +19,6 @@ HELP_READ = f"""
 
 TOOLS_DATA_READ = f"""
 <u>**ᴛᴏᴏʟs ғᴏʀ {MickeyBot.name} ᴀʀᴇ:**</u>
-**➻ ᴜsᴇ /repo ғᴏʀ ɢᴇᴛᴛɪɴɢ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ!**
 **──────────────**
 **➻ ᴜsᴇ /ping ғᴏʀ ᴄʜᴇᴄᴋɪɴɢ ᴛʜᴇ ᴘɪɴɢ ᴏғ {MickeyBot.name}**
 **──────────────**
