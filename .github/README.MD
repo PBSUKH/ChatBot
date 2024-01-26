@@ -44,8 +44,4 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 <p align="center"><a href="https://t.me/ll_THE_BAD_BOT_ll"> <img src="https://img.shields.io/badge/Join-SUPPORT%20GROUP-black?style=for-the-badge&logo=Telegram" width="220" height="38.5"/></a></p>
 <p align="center"><a href="https://t.me/ll_BAD_MUNDA_WORLD_ll"> <img src="https://img.shields.io/badge/Join-SUPPORT%20CHANNEL-black?style=for-the-badge&logo=Telegram" width="220" height="38.5"/></a></p>
 
-<h3 align="center">──「 ʀᴇᴘᴏ sᴛᴀᴛs 」──</h3>
-<a href="https://github.com/Badhacker98/Chat_Ai_Bot"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Devarora-0981&repo=Mickey&theme=chartreuse-dark"></a>
 
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
