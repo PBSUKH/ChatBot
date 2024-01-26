@@ -1,5 +1,4 @@
-# Don't remove This Line From Here. Tg: @Dev_Arora_0981 | @DevArora0981
-# Github :- Devarora-0981 | Devarora2604
+#bad op
 
 import asyncio
 import random
