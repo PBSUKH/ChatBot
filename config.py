@@ -17,7 +17,7 @@ OWNER_USERNAME = getenv("OWNER_USERNAME", "II_BAD_BBY_II")
 IMG = [
     "https://te.legra.ph/file/5bf629d10afd4af953585.jpg",
     "https://te.legra.ph/file/7a321b99fe99d9d8b5117.jpg",
-    "https://te.legra.ph/file/c482a7e55b459ffe07502.jpg",
+    "https://telegra.ph/file/e88df76230efd9e826068.jpg",
     "https://telegra.ph//file/0879fbdb307005c1fa8ab.jpg",
     "https://telegra.ph//file/19e3a9d5c0985702497fb.jpg",
     "https://telegra.ph//file/b5fa277081dddbddd0b12.jpg",
