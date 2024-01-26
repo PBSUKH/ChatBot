@@ -73,7 +73,7 @@ CHATBOT_ON = [
 
 MUSIC_BACK_BTN = [
     [
-        InlineKeyboardButton(text="sᴏᴏɴ", callback_data=f"soom"),
+        InlineKeyboardButton(text="ᴍᴜsɪᴄ", url=f"https://t.me/MissBroken_Bot"),
     ],
 ]
 
