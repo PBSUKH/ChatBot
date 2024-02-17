@@ -1,6 +1,6 @@
 from pyrogram import filters
 from pymongo import MongoClient
-from rankbot import rankbot as app
+from Mickey import MickeyBot
 from config import MONGO_URL
 from pyrogram.types import *
 
