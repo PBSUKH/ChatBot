@@ -18,7 +18,7 @@ pic = "https://telegra.ph/file/bf2bcf8b498e7850c83e8.jpg"
 
 # ------------------- watcher ----------------------- #
 
-@app.on_message(filters.group & filters.group, group=6)
+@MickeyBot.on_cmd(filters.group & filters.group, group=6)
 def today_watcher(_, message):
     chat_id = message.chat.id
     user_id = message.from_user.id
@@ -33,7 +33,7 @@ def today_watcher(_, message):
             today[chat_id][user_id]["total_messages"] = 1
 
 
-@app.on_message(filters.group & filters.group, group=11)
+@MickeyBot.on_cmd(filters.group & filters.group, group=11)
 def _watcher(_, message):
     user_id = message.from_user.id    
     user_data.setdefault(user_id, {}).setdefault("total_messages", 0)
@@ -43,7 +43,7 @@ def _watcher(_, message):
 
 # ------------------- ranks ------------------ #
 
-@app.on_message(filters.command("ranking"))
+@MickeyBot.on_cmd(filters.command("ranking"))
 async def today_(_, message):
     chat_id = message.chat.id
     if chat_id in today:
@@ -71,7 +71,7 @@ async def today_(_, message):
 
 
 
-@app.on_message(filters.command("ranking"))
+@MickeyBot.on_cmd(filters.command("ranking"))
 async def ranking(_, message):
     top_members = collection.find().sort("total_messages", -1).limit(10)
     
@@ -96,7 +96,7 @@ async def ranking(_, message):
 
 # -------------------- regex -------------------- # 
 
-@app.on_callback_query(filters.regex("today"))
+@MickeyBot.on_callback_query(filters.regex("today"))
 async def today_rank(_, query):
     chat_id = query.message.chat.id
     if chat_id in today:
@@ -124,7 +124,7 @@ async def today_rank(_, query):
 
 
 
-@app.on_callback_query(filters.regex("overall"))
+@MickeyBot.on_callback_query(filters.regex("overall"))
 async def overall_rank(_, query):
     top_members = collection.find().sort("total_messages", -1).limit(10)
     
