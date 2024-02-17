@@ -33,7 +33,7 @@ def today_watcher(_, message):
             today[chat_id][user_id]["total_messages"] = 1
 
 
-@MickeyBot.on_cmd(filters.group & filters.group, group=11)
+@MickeyBot.on_message(filters.group & filters.group, group=11)
 def _watcher(_, message):
     user_id = message.from_user.id    
     user_data.setdefault(user_id, {}).setdefault("total_messages", 0)
