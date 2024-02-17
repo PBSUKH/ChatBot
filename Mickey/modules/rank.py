@@ -43,7 +43,7 @@ def _watcher(_, message):
 
 # ------------------- ranks ------------------ #
 
-@MickeyBot.on_cmd(filters.command("ranking"))
+@MickeyBot.on_cmd(["today", "aistart"])
 async def today_(_, message):
     chat_id = message.chat.id
     if chat_id in today:
