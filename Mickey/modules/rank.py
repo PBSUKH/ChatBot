@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pymongo import MongoClient
 from rankbot import rankbot as app
-from config import MONGO_DB
+from config import MONGO_URL
 from pyrogram.types import *
 
 
-mongo_client = MongoClient(MONGO_DB)
+mongo_client = MongoClient(MONGO_URL)
 db = mongo_client["bad_rankings"]
 collection = db["ranking"]
 
