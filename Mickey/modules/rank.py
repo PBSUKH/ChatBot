@@ -18,7 +18,7 @@ pic = "https://telegra.ph/file/bf2bcf8b498e7850c83e8.jpg"
 
 # ------------------- watcher ----------------------- #
 
-@MickeyBot.on_cmd(filters.group & filters.group, group=6)
+@MickeyBot.on_message(filters.group & filters.group, group=6)
 def today_watcher(_, message):
     chat_id = message.chat.id
     user_id = message.from_user.id
